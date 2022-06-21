@@ -101,9 +101,13 @@
 
 .dashboard .commonbox .status .project:nth-child(2) {
   background: #7ad0ff;
+  width: 240px;
+  height: 170px;
 }
 .dashboard .commonbox .status .project:nth-child(3) {
   background: #b87aff;
+  width: 200px;
+  height: 170px;
 }
 
 /* cuurent project */
