@@ -1,0 +1,163 @@
+.dashboard {
+  /* background: yellow; */
+  /* width: 100%; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+/* search bar styling */
+
+.dashboard .searchbox {
+  background: #f7f7f7;
+  border-radius: 5px;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.dashboard .searchbox input {
+  background: transparent;
+  border: #f7f7f7;
+}
+
+.dashboard .searchbox input:focus {
+  outline: none;
+}
+
+/* project status styling */
+
+.dashboard .commonbox {
+  padding: 10px;
+  /* background: blue; */
+  width: 100%;
+  margin: 20px 0;
+}
+
+.heading {
+  font-size: 1.3rem;
+  margin: 10px;
+  text-transform: capitalize;
+}
+
+.desc {
+  font-size: 12px;
+  text-transform: capitalize;
+  margin: 10px;
+  color: gray;
+}
+
+.dashboard .commonbox .status {
+  /* background: palevioletred; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard .commonbox .status .project {
+  background: #7aa0ff;
+  box-shadow: 0px 20px 60px rgba(2, 140, 213, 0.15);
+  border-radius: 11.4904px;
+  width: 270px;
+  height: 170px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dashboard .commonbox .status .project button {
+  margin: 10px;
+  padding: 5px 10px;
+  background: rgba(12, 12, 12, 0.2);
+  border-radius: 6.08108px;
+  border: none;
+  color: rgb(230, 230, 230);
+}
+.dashboard .commonbox .status .project .box1 {
+  display: flex;
+  justify-content: space-between;
+}
+.dashboard .commonbox .status .project .box2 {
+  margin: 10px;
+}
+.dashboard .commonbox .status .project .box2 h3 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.dashboard .commonbox .status .project .box2 p {
+  color: rgb(230, 230, 230);
+  font-size: 12px;
+}
+
+.dashboard .commonbox .status .project:nth-child(2) {
+  background: #7ad0ff;
+}
+.dashboard .commonbox .status .project:nth-child(3) {
+  background: #b87aff;
+}
+
+/* cuurent project */
+
+.commonbox .projects {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.commonbox .projects .project {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 240px;
+  height: 140px;
+  border: 1px solid rgba(128, 128, 128, 0.473);
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.commonbox .projects .project .vendor img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.commonbox .projects .project .vendor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commonbox .projects .project .vendor button {
+  background: #14a9f9;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 4px;
+}
+
+.boxidx {
+  display: flex;
+  justify-content: space-between;
+}
+.commonbox .projects .project h3 {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  margin: 5px;
+}
+.commonbox .projects .project p {
+  font-size: 13px;
+  color: gray;
+  margin: 5px;
+}
