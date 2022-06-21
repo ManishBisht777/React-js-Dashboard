@@ -24,7 +24,6 @@ const Dashboard = () => {
           <div className="project">
             <div className="box1">
               <button>Live Projects</button>
-              <button>View all</button>
             </div>
             <div className="box2">
               <h3>67</h3>
@@ -34,7 +33,6 @@ const Dashboard = () => {
           <div className="project">
             <div className="box1">
               <button>Live Projects</button>
-              <button>View all</button>
             </div>
             <div className="box2">
               <h3>67</h3>
