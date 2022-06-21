@@ -18,7 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 80%;
 }
 
 .dashboard .searchbox input {
@@ -57,6 +57,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .dashboard .commonbox .status .project {

@@ -1,0 +1,102 @@
+.profile {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 300px;
+}
+
+.profile h3 {
+  font-size: 1.2rem;
+  color: #515252;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+
+.profile p {
+  font-size: 13px;
+  text-transform: capitalize;
+  color: gray;
+  margin: 3px;
+}
+.profilebox {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.profileinfo {
+  display: flex;
+  flex-direction: column;
+}
+.profileinfo h3 {
+  margin: 0px 0;
+}
+
+.meetings,
+.recentact,
+.schedulemeeting {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: relative;
+}
+
+.meetbox {
+  padding: 5px;
+  margin: 5px 0;
+  position: relative;
+}
+.meetbox .call {
+  color: #028cd5;
+  margin: 10px 0;
+}
+
+.meetbox span {
+  color: rgb(32, 32, 32);
+  font-size: 14px;
+  margin: 0px 7px;
+}
+
+.meetbox img {
+  margin: 5px -10px;
+}
+.meetbox button {
+  background: #028cd5;
+  padding: 5px 15px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  cursor: pointer;
+}
+
+.recentact img {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.recentact.call {
+  position: relative;
+}
+
+.recentact .meetbox::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: -8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: palegreen;
+}
