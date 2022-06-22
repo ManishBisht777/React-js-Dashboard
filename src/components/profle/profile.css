@@ -7,14 +7,19 @@
 }
 
 .profile h3 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #515252;
   text-transform: capitalize;
   margin: 10px 0;
+  display: flex;
+  align-items: center;
 }
-
+.profile h3 span {
+  margin-left: 60px;
+  color: gray;
+}
 .profile p {
-  font-size: 13px;
+  font-size: 11px;
   text-transform: capitalize;
   color: gray;
   margin: 3px;
@@ -22,9 +27,14 @@
 .profilebox {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 25px;
 }
-
+.profilebox span {
+  margin-left: 60px;
+  color: gray;
+  font-size: 14px;
+  cursor: pointer;
+}
 .profile img {
   width: 40px;
   height: 40px;

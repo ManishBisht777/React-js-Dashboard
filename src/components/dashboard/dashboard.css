@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px;
 }
 
 /* search bar styling */
@@ -18,7 +18,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  margin: 10px;
+}
+
+.dashboard .searchbox span {
+  margin: 0 5px;
+  display: flex;
 }
 
 .dashboard .searchbox input {
@@ -80,6 +85,14 @@
   border-radius: 6.08108px;
   border: none;
   color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  font-size: 13px;
+}
+.dashboard .commonbox .status .project button span {
+  margin-right: 5px;
 }
 .dashboard .commonbox .status .project .box1 {
   display: flex;
@@ -90,8 +103,10 @@
 }
 .dashboard .commonbox .status .project .box2 h3 {
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-family: "Staatliches", cursive;
   font-weight: bolder;
+  letter-spacing: 2px;
 }
 
 .dashboard .commonbox .status .project .box2 p {
@@ -116,7 +131,7 @@
   display: flex;
   width: 100%;
   padding: 10px;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-wrap: wrap;
 }
@@ -125,8 +140,8 @@
   display: flex;
   flex-direction: column;
   margin: 10px;
-  width: 240px;
-  height: 140px;
+  width: 200px;
+  /* height: 140px; */
   border: 1px solid rgba(128, 128, 128, 0.473);
   border-radius: 10px;
   padding: 10px;
@@ -142,6 +157,7 @@
 .commonbox .projects .project .vendor {
   display: flex;
   justify-content: space-between;
+  margin: 5px 0;
 }
 
 .commonbox .projects .project .vendor button {
@@ -151,18 +167,79 @@
   color: white;
   border-radius: 4px;
 }
+.vendorinfo {
+  display: flex;
+  align-items: center;
+}
 
 .boxidx {
   display: flex;
   justify-content: space-between;
+  margin: 5px 0;
+}
+.boxidx p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .commonbox .projects .project h3 {
   text-transform: capitalize;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin: 5px;
 }
 .commonbox .projects .project p {
   font-size: 13px;
   color: gray;
   margin: 5px;
+}
+
+/* .profilebox h3 {
+  font-size: 14px;
+  color: #515252;
+  text-transform: capitalize;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+} */
+
+.project .profilebox p {
+  font-size: 11px;
+  text-transform: capitalize;
+  color: gray;
+  margin: 3px;
+}
+.project .profilebox {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.project .profilebox .profileinfo h3 {
+  font-size: 14px;
+}
+
+.project .profilebox .profileinfo p {
+  margin: -5px 5px;
+}
+.project .profilebox span {
+  margin-left: 30px;
+  color: gray;
+  font-size: 14px;
+  cursor: pointer;
+}
+.project .profilebox img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.boxidx button {
+  background: #14a9f9;
+  border: none;
+  padding: 5px 15px;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.project:nth-child(odd) .boxidx button {
+  background: #15c15d;
 }

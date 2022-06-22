@@ -1,5 +1,52 @@
 .navbar {
-  background: purple;
   /* width: 100%; */
   min-width: 200px;
+  padding: 20px;
+}
+
+.navbar .logo {
+  margin: 10px;
+  font-size: 2rem;
+}
+
+.navbar .nav {
+  display: flex;
+  flex-direction: column;
+}
+.nav ul {
+  margin-top: 20px;
+}
+.navbar li {
+  padding: 10px 0;
+  list-style: none;
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.navbar li a span {
+  margin: 0 10px;
+}
+
+.navbar li:hover a {
+  color: #14a9f9;
+  transition: 1s ease-in-out;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgba(28, 48, 74, 0.5);
+  display: flex;
+  align-items: center;
+}
+
+.navbar p {
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.tabactive a {
+  color: #14a9f9;
+}
+
+.tabactive {
+  border-left: 8px solid #14a9f9;
 }
